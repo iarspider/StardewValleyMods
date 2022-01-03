@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.css">
+</head>
+<body>
+<h2>Моды для Stadew Valley</h2>
+<h3>Frameworks and Libraries</h3>
+<table class="table table-striped">
+    <tbody>
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/2400">SMAPI</a> 3.13.2.0</td>
+        <td>This is the Forge's equivalent for SDV</td>
+    </tr>
+    {% for item in coremods %}
+    <tr>
+        <td><a href="{{item.url}}">{{item.name}}</a> {{item.version}}</td>
+        <td>{{item.description}}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<h3>ContentPatcher / FarmTypeManager / ProductionFrameworkMod packs</h3>
+<table class="table table-striped">
+    <tbody>
+    {% for item in cpacks %}
+    <tr>
+        <td><a href="{{item.url}}">{{item.name}}</a> {{item.version}}</td>
+        <td>{{item.description}}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<h3>Regular mods</h3>
+<table class="table table-striped">
+    <tbody>
+    {% for item in mods %}
+    <tr>
+        <td><a href="{{item.url}}">{{item.name}}</a> {{item.version}}</td>
+        <td>{{item.description}}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+</body>

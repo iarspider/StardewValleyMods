@@ -1,386 +1,530 @@
-<html>
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.css">
 </head>
 <body>
 <h2>Моды для Stadew Valley</h2>
 <h3>Frameworks and Libraries</h3>
 <table class="table table-striped">
-<tbody>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/2400">SMAPI</a></td>
-<td>This is the Forge's equivalent for SDV</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1915">ContentPatcher</a></td>
-<td>Loads content packs which edit game data, images, and maps without changing the game files."</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/3853">ContentPatcher Animations</a></td>
-<td>Animations for content patcher</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/4970">Producer Framework Mod</a></td>
-<td>Framework to add rules to produce objects or change the vanilla rules.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/2594">Mail Framework Mod</a></td>
-<td>Utility classes to send mail in the game.</a></td></tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1726">PyTK</a></td>
-<td>Platonymous Toolkit</a></td></tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/3231">Farm Type Manager</a></td>
-<td>Allows custom spawning of content from each farm type: forage, large objects, ore, and monsters</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/2269">Entoarox Framework</a></td>
-<td>A collection of APIs to make modding easier.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/4403">FeTK</a></td>
-<td>FeTK is a collection of helper functions and mod services. It simplifies common developer tasks building Stardew-Valley mods and empowers developers to build rich mod experiences. Requires <a href="https://community.playstarbound.com/threads/updating-mods-for-stardew-valley-1-4.156000/#post-3349760">unofficial update</a></td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/3213">StardewHack</a></td>
-<td>Transpilation library used by my other mods. Doesn’t do much on its own.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1720">Json Assets</a></td>
-<td>Allow custom stuff.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1536">Mail Framework Mod</a></td>
-<td>Utility classes to send mail in the game.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1348">SpaceCore</a></td>
-<td>Required by a few mods.</td>
-</tr>
-</tbody></table>
+    <tbody>
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/2400">SMAPI</a> 3.13.2.0</td>
+        <td>This is the Forge's equivalent for SDV</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher</a> 1.24.7</td>
+        <td>Loads content packs which edit game data, images, and maps without changing the game files.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/3853">Content Patcher Animations</a> 1.2.0</td>
+        <td>Lets Content Patcher packs animate textures.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/3231">Farm Type Manager</a> 1.15.0</td>
+        <td>Allows custom spawning of content from each farm type: forage, large objects, ore, and monsters</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/1720">Json Assets</a> 1.10.2</td>
+        <td>Lets content packs add custom content to the game.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/1536">Mail Framework Mod</a> 1.12.2</td>
+        <td>Utility classes to send mail in the game.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/5038">PFMAutomate</a> 1.4.2</td>
+        <td>Integrate Producer Framework Mod to Automate</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/6589">PlatoTK</a> 1.9.5</td>
+        <td>Modding Toolkit</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/4970">Producer Framework Mod</a> 1.7.3</td>
+        <td>Framework to add rules to produce objects or change the vanilla rules.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/1726">PyTK</a> 1.22.9-unofficial.1-strobe</td>
+        <td>Platonymous Toolkit</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/1348">SpaceCore</a> 1.7.2</td>
+        <td>A framework mod used by some of my other mods.</td>
+    </tr>
+    
+    </tbody>
+</table>
 <h3>ContentPatcher / FarmTypeManager / ProductionFrameworkMod packs</h3>
 <table class="table table-striped">
-<tbody>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/276">BirthdayMailContent</a></td>
-<td>Content Pack for BirthdayMail by Kathryn Hazuka</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/5735">Animated Fish</a></td>
-<td>Animated furniture</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/5607">Animated Food and Drinks</a></td>
-<td>Animates food and drinks</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/5662">Animated Furniture and Stuff</a></td>
-<td>Animated Furniture and Stuff</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/5596">Animated Prismatic Galaxy Sword</a></td>
-<td>Animates the Galaxy Sword to look prismatic</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/5642">Animated Slime Eggs and Loot</a></td>
-<td>Animates slime eggs, loot and stuff</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1975">FixedHatMouse</a></td>
-<td>Gives the Hat Mouse a better, nicer home, just like they deserve</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/5334">(CP) Gummy Worm Digspots</a></td>
-<td>A patch replacing the wiggly dig spot roots with gummy worms.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/2113">Rustic Traveling Cart</a></td>
-<td>A visual retexture of the Traveling Cart to make it match the rest of the game better. Replaces the ugly pig with a wild boar.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/5450">Seasonal Cute Characters</a></td>
-<td>Seasonal outfits with the slightly cuter character aesthetic.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/5284">Shardust’s Craftables</a></td>
-<td>A series of recolors of some of the game’s Craftables</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/5170">[PFM] Better Quarry Redux</a></td>
-<td>Improves the quarry.</td>
-</tr>
-<tr>
-<td><a href="https://community.playstarbound.com/resources/5914">[PFM]Quality Artisan Products</a></td>
-<td>Causes output quality to match input quality, also makes mead care about honey flower type and doubles output for large eggs and milk.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/5326">[MFM] Personal Anvil</a></td>
-<td>Letter for Personal Anvil recipe.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/6099">Animated Mining Pack</a></td>
-<td>Animates mining and stuff</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/6036">Animated Buildings</a></td>
-<td>Animates the Slime Hutch and Well</td>
-</tr>
-</tbody></table>
+    <tbody>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/4501">Birthday Reminder Mail</a> 1.2</td>
+        <td>Adds Birthday Reminders via mail with gift suggestions</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/4501">Birthday Reminder Mail for SVE</a> 1.2</td>
+        <td>Adds Birthday Reminders via mail with gift suggestions added with Stardew Valley Extended</td>
+    </tr>
+    
+    <tr>
+        <td><a href="">Fish Pond Rebalance</a> 1.0</td>
+        <td>Fish Pond QoL changes, fish breed faster, and roe production scales with the number of fish in each pond.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/9776">[BFAV] Void Rabbit</a> 1.0.2</td>
+        <td>Adds Void Rabbits!</td>
+    </tr>
+    
+    <tr>
+        <td><a href="">Challenging Community Center Bundles - Vanilla Bundle Pack</a> 2.3.0</td>
+        <td>Challenging Vanilla Community Center Bundles</td>
+    </tr>
+    
+    <tr>
+        <td><a href="">Challenging Community Center Bundles - Vanilla SVE Bundle Pack</a> 2.3.0</td>
+        <td>Challenging Vanilla SVE Community Center Bundles</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/5870">[CCM] Dairy and Egg Product Overhaul</a> 1.1.0</td>
+        <td>Overhauls the products made from milk and eggs.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/5735">Animated Fish</a> 1.2.0</td>
+        <td>Animates fish and fishing related items</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/6089">Animated Fish SVE</a> 1.5.0</td>
+        <td>Animates the fish in Stardew Valley Expanded</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/5607">Animated Food and Drinks</a> 3.4.1</td>
+        <td>Animates food and drinks</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/5662">Animated Furniture and Stuff</a> 1.1.0</td>
+        <td>Animated Furniture and Stuff</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/6099">Animated Mining Pack</a> 1.2.0</td>
+        <td>Animates mining and stuff</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/5642">Animated Slime Eggs and Loot</a> 2.1.0</td>
+        <td>Animates slime eggs, loot and stuff</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/5870">[CP] Dairy and Egg Product Overhaul</a> 1.1.0</td>
+        <td>Overhauls the products made from milk and eggs.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/5319">Dino Drop Fix</a> 1.0.0</td>
+        <td>Fixes dino drops</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/9831">Dynamic Sam Three Heart Event</a> 1.0.0</td>
+        <td>This mod makes it so that Sam&#39;s three heart event can be seen no matter the year, but also changes the event to reflect Kent&#39;s coming home if it is triggered past Y1.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/6330">Elle&#39;s Seasonal Vanilla Buildings</a> 1.0.4</td>
+        <td>Adds seasonal features to vanilla farm buildings!</td>
+    </tr>
+    
+    <tr>
+        <td><a href="">[CP] Ferngill Revenue Service</a> 1.0.0</td>
+        <td>CP Data for Ferngill Revenue Service</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/1975">FixedHatMouse</a> 1.0.2</td>
+        <td>Gives the Hat Mouse a better, nicer home, just like they deserve</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/8107">[CP] Kelly&#39;s Flower Dance Attire</a> 1.3.0</td>
+        <td>Make the farmer wear a dress or suit to the dance</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/7591">[CP] Love of Cooking UI Recolor</a> 2.1.0</td>
+        <td>Love of Cooking UI Recolor set</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/2113">Rustic Traveling Cart</a> 1.4.0</td>
+        <td>A visual retexture of the Traveling Cart to make it match the rest of the game better. Replaces the ugly pig with a wild boar. </td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/5450">Seasonal Cute Characters</a> 3.2.3</td>
+        <td>Seasonal outfits with the slightly cuter character aesthetic.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/5969">Seasonal Cute Characters SVE</a> 2.2.1</td>
+        <td>Makes the characters of Stardew Valley Expanded slightly cuter and gives them seasonal outfits.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="">Seasonal Cute Swimwear</a> 1.0.0</td>
+        <td>Swimwear with the slightly cuter character aesthetic.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/10235">[CP] Utility Grid for Strange Machines</a> 0.1.0</td>
+        <td>CP Utility Grid for Strange Machines</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/7107">Not a Farmer - Job Title Replacer</a> 1.3.1</td>
+        <td>Replace your job title and land suffix with whatever you like.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/9485@lite">[Lite] Fishing Made Easy Suite - SVE Edition</a> 4.0.3</td>
+        <td>Enable a setting under the config.json file in Mods/[CP] [Lite] Fishing Made Easy Suite. Enable a setting by replacing &#39;false&#39; with &#39;true&#39;. Refer to the INSTRUCTIONS &amp; INFO document included for more information.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/5170">[PFM] Better Quarry Redux</a> 1.0.0</td>
+        <td>Improves the quarry.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/5870">[JA] Dairy and Egg Product Overhaul</a> 1.1.0</td>
+        <td>Overhauls the products made from milk and eggs.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/5102">Industrialization for SDV</a> 3.3.3</td>
+        <td>Adds factory like machines</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/9769">[JA] Void Machines</a> 1.0.3</td>
+        <td>Adds in a few machines related to the void.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/9776">[JA] Void Rabbits Foot</a> 1.0.2</td>
+        <td>Adds the mysterious Void Rabbit&#39;s Foot.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/5870">[PFM] Dairy and Egg Product Overhaul</a> 1.1.0</td>
+        <td>Overhauls the products made from milk and eggs.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/5767">[PFM] Flower Meads</a> 1.0.0</td>
+        <td>Adjusts name and price of mead based on type of honey used.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/5102">Industrialization for SDV</a> 3.3.3</td>
+        <td>Adds factory like machines</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/9769">[PFM] Void Machines</a> 1.0.3</td>
+        <td>Adds functionality to [JA] Void Machines.</td>
+    </tr>
+    
+    </tbody>
+</table>
 <h3>Regular mods</h3>
 <table class="table table-striped">
-<tbody>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1063">Automate</a></td>
-<td>Lets you automate crafting machines, fruit trees, and more by connecting them to chests.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/3109">AutomaticGates</a></td>
-<td>Opens and closes gates automatically</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/3883">AutoToolSelect</a></td>
-<td>Choose right tool from toolbox based on hovering tile</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/2080">Better Artisan Good Icons</a></td>
-<td>Makes jelly, pickles, wine, juice, and honey icons be based on the fruit, vegetable, or flower used to make them.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/859">Better Ranching</a></td>
-<td>Prevents failed milk/shear attempts and displays when animals can be milked/sheared and petted.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/276">BirthdayMail</a></td>
-<td>Places mail from Lewis in the mailbox to remind the player birthdays of all viligers the player knows</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/446">Build Health</a></td>
-<td>Increase your health as you play.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/518">Chests Anywhere</a></td>
-<td>Access your chests from anywhere and organize them your way.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/2590">Combat Controls</a></td>
-<td>A fix to the game controls that turns the character in the direction of your MouseClick.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/5093">Cozy Clothing</a></td>
-<td>Character automatically wears pajamas when at home.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1624">DailyTasksReport</a></td>
-<td>Shows information about some daily tasks in your farm</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/509">Experience Bars</a></td>
-<td>Shows experience bars in the top-left corner.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/2271">Extended Minecart</a></td>
-<td>More destinations for your minecart needs!</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/4756">FishMe</a></td>
-<td>skips the fishing minigame</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/3037">Forecaster</a></td>
-<td>Displays the daily luck message when you wake up so you don’t have to check the TV every day.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/229">Gift Taste Helper</a></td>
-<td>Displays NPC gift tastes in a handy tooltip.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/2731">Harvest With Scythe</a></td>
-<td>Allows you to harvest all crops and forage using the scythe. They can also still be plucked.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/5630">Health and Stamina Tweaks</a></td>
-<td>Offers a variety of configurations for health and stamina. Uses code from Zoryn’s Regen mod.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/541">Lookup Anything</a></td>
-<td>View metadata about anything by pressing a button.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/2106">NaturalClock</a></td>
-<td>Replaces the Golden Clock with a more natural version.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/2770">Pelican Postal Service</a></td>
-<td>Mail gifts and quest items to residents without meeting them in person.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/5038">PFMAutomate</a></td>
-<td>Integrate Producer Framework Mod to Automate</td>
-</tr>
-<tr>
-<td><a href="https://community.playstarbound.com/resources/5914/">(PFM)Quality Artisan Products</a></td>
-<td>Causes output quality to match input quality, also makes mead care about honey flower type and doubles output for large eggs and milk.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/316">Pond With Bridge</a></td>
-<td>Adds a bridge over the lower pond on the farm</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1232">Pony Weight Loss Program</a></td>
-<td>Allows horses to pass vertically through single tile openings</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/2047">Price Drops</a></td>
-<td>Introduces discounts at shops when the player has a good relationship with the shop owner. <a href="https://community.playstarbound.com/threads/updating-mods-for-stardew-valley-1-4.156000/page-18#post-3353768">Working version</a></td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1307">Rented Tools</a></td>
-<td>allows renting tools during upgrades</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/435">Advance Save Backup</a></td>
-<td>Automatically backs up all your saves once per day into its folder.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1304">Self Service</a></td>
-<td>allows you to buy stuff while shop is open, with or without someone at the counter</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/314">Simple Crop Label</a></td>
-<td>Identify crops and trees on farm</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/533">Skip Intro</a></td>
-<td>Skips the game’s loading intro.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/963">SkullCavernElevator</a></td>
-<td>Elevator for the Skull Cavern</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/3627">Health Bars</a></td>
-<td>Add health bars to monsters.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/41">Better Sprinklers</a></td>
-<td>Lets you customise the sprinkler coverage.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/169">TimeSpeed</a></td>
-<td>Lets you control the flow of time in the game: speed it up, slow it down, or freeze it altogether.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/5260">TvRecipes</a></td>
-<td>Buy The Queen of Sauce recipes at Stardrop Saloon</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/5260">TV Recipes Fix</a></td>
-<td>Fix bug in CookingRecipes.xnb</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1150">UI Info Suite</a></td>
-<td>Adds a lot of useful information to the user interface. This is based on Demiacle’s excellent UIModSuite.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1958">Walk Through Trellis</a></td>
-<td>Lets you walk through trellis crops.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/2310">No cheat Shortcuts</a></td>
-<td>Shortcuts without cheatin</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/3760">Inches To Metric System</a></td>
-<td>Replaces measurements in the game to the metric system.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1089">Fast Animations</a></td>
-<td>Speeds up many animations in the game (configurable).</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/3214">Wear More Rings</a></td>
-<td>Adds 4 additional ring slots to your inventory.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1689">Hold To Break Geodes</a></td>
-<td>Hold left click/&lt;gamepad key&gt; to continuously break geodes.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/2132">CatGifts</a></td>
-<td>Your cat or dog will randomly leave you gifts on your doorstep.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/5113">Exhaustion Protection</a></td>
-<td>Does not let you use tools that would make you exhausted</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1738">Friends Forever</a></td>
-<td>Makes it so friendship levels never decay!</td></tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/4668">Platonic Relationships</a></td>
-<td>Allows you to reach 10 hearts with everyone</td></tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1400">WarpAnimals</a></td>
-<td>Manually warp wandering animals into their respective home</td></tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/2196">ConvenientChests</a></td>
-<td>Makes your life easier: Allows crafting from and auto-stashing to chests.</td></tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/5299">ShopAnywhere</a></td>
-<td>Access shop anywhere and anytime</td></tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1529">FastTravel</a></td>
-<td>Adds the ability to fast travel to any location on the map. Notice: needs <a href="https://community.playstarbound.com/threads/updating-mods-for-stardew-valley-1-4.156000/#post-3346224">unofficial update</a></td></tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/2594">Crop Transplant Mod</a></td>
-<td>Adds a way to transplant crops.</a></td></tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/2938">Tool-Upgrade Delivery Service</a></td>
-<td>Clint sends you a mail when he finished upgrading your tool. Tool included. Requires <a href="https://community.playstarbound.com/threads/updating-mods-for-stardew-valley-1-4.156000/#post-3349760">unofficial update</a></td></tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/2221">Better Junimos</a></td>
-<td>Allow your junimos (from junimo huts) to automatically plant seeds, fertilize, and so much more!</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1845">Bigger Backpack</a></td>
-<td>Adds another backpack size.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/2571">Deep Woods</a></td>
-<td>Adds an explorable forest to the secret woods. How deep does it go?</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/2462">Deluxe Auto-Grabber</a></td>
-<td>Allows use of autograbber for coops, crops, and forage</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1738">Friends Forever</a></td>
-<td>Makes it so friendship levels never decay!</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/4089">Mega Storage</a></td>
-<td>Adds Mega Storage Chests to the game.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/5326">PersonalAnvil</a></td>
-<td>Allows the user to build their own anvil to break geodes anywhere.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1401">Tractor Mod</a></td>
-<td>Lets you buy a tractor to more efficiently work with crops, clear twigs and rocks, etc.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/1019">AutoAnimalDoors</a></td>
-<td>Open and close the doors automatically for your animals.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/3615">FishReminder</a></td>
-<td>Tells the players which fish they still need to catch based on season.</td>
-</tr>
-<tr>
-<td><a href="https://www.nexusmods.com/stardewvalley/mods/5098">Generic Mod Config Menu</a></td>
-<td>...</td>
-</tr>
-</tbody>
+    <tbody>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/6196">AnimalsNeedWater</a> 1.4.0</td>
+        <td>Adds functionality to water troughs located in animal houses.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/1063">Automate</a> 1.25.1</td>
+        <td>Lets you automate crafting machines, fruit trees, and more by connecting them to chests.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/10487">Better Shipping Bin</a> 1.0.0</td>
+        <td>Retreive items from the shipping bin</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/3296">Paritee&#39;s Better Farm Animal Variety</a> 3.2.4-unofficial.kelvinrosa-mouseypounds-elbe</td>
+        <td>Raise more variety of animals on your farm without replacing existing livestock</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/859">Better Ranching</a> 1.9.0</td>
+        <td>Prevents failed milk/shear attempts and displays when animals can be milked/sheared and petted.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/6011">Casual Life</a> 1.5.50</td>
+        <td>Slow down game time and update by minutes</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/6361">Challenging Community Center Bundles</a> 2.3.0</td>
+        <td>Challenging Community Center Bundles - Main Files</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/4">CJB Cheats Menu</a> 1.29.3</td>
+        <td>Simple in-game cheats menu!</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/93">CJB Item Spawner</a> 2.1.5</td>
+        <td>Simple in-game item spawner!</td>
+    </tr>
+    
+    <tr>
+        <td><a href="">Console Commands</a> 3.13.2</td>
+        <td>Adds SMAPI console commands that let you manipulate the game.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/2642">Custom Cask Mod</a> 1.3.0</td>
+        <td>Adds ways to customize the casks.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/9850">Custom Community Centre</a> 1.0.5</td>
+        <td>Modding tool - Adds new areas and bundles to the Community Centre.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/3043">CustomMusic</a> 1.8.2-unofficial.1-d235j</td>
+        <td>Changes the games music</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/7089">Custom NPC Exclusions</a> 1.3.1-beta.1</td>
+        <td>Allows modders to exclude custom NPCs from quests and events via Content Patcher.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/5966">Custom Ore Nodes</a> 2.1.1</td>
+        <td>Spawns custom ore nodes in mines.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/9365@automate">DGA Automate</a> 1.0.2</td>
+        <td>Enables automation of Dynamic Game Assets machines using Automate.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/9365">Dynamic Game Assets</a> 1.3.3</td>
+        <td>Lets content packs add custom content to the game.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="">Error Handler</a> 3.13.2</td>
+        <td>Handles some common vanilla errors to log more useful info or avoid breaking the game.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/???">Exhaustion Protection</a> 1.0.0</td>
+        <td>Does not let you use tools that would make you exhausted</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/???">Exhaustion Protection</a> 1.0.0</td>
+        <td>Does not let you use tools that would make you exhausted</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/6529">Expanded Preconditions Utility</a> 1.0.1</td>
+        <td>A condition checking system designed for use by other mods, in the format of event preconditions</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/7566">FerngillRevenueService</a> 1.1.5</td>
+        <td>Keep your gameplay difficult and engaging with taxes and bills</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/5452">Fish Info</a> 1.5.5</td>
+        <td>Adds infomration about where fish can be caught to the collections page</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/8107">Kelly&#39;s Flower Dancing</a> 1.3.0</td>
+        <td>Make the farmer actually dance at the flower festival</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/5098">Generic Mod Config Menu</a> 1.7.0</td>
+        <td>Adds an in-game UI to edit other mods&#39; config options (for mods which support it).</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/6944">Gift Decline</a> 1.1.4</td>
+        <td>Inhabitants will like items less each time you gift them that same item.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/6411">Hardcore Mine 2</a> 1.3.6</td>
+        <td>Updated version of Hardcore Mines works with 1.5</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/2731">Harvest With Scythe</a> 5.5</td>
+        <td>Allows you to harvest all crops and forage using the scythe. They can also still be plucked.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/9050">HatBuffs</a> 1.0.1</td>
+        <td>Gives the player buffs depending on the hat they&#39;re wearing.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/10446">Horse Squeeze</a> 1.0.0</td>
+        <td>A small mod that helps the horse squeeze through tight spaces.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/9354">Item Recovery</a> 1.0.5-beta</td>
+        <td>Recover all lost items from Adventurers Guild.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/541">Lookup Anything</a> 1.36.1</td>
+        <td>View metadata about anything by pressing a button.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/6830">Love of Cooking</a> 1.0.24</td>
+        <td>Cooking overhaul suite. Enter a world of food!</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/9709">More Bundles</a> 1.1.0</td>
+        <td>Adds a new difficulty setting for the community center.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/239">NPC Map Locations</a> 2.7.2</td>
+        <td>Shows NPCs and farmers on a modified map page for accurate tracking.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/2047">Price Drops</a> 1.0.8-unofficial.1-ResidentDonna</td>
+        <td>Introduces discounts at shops when the player has a good relationship with the shop owner.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/5605">Public Access TV</a> 2.0.0</td>
+        <td>Villager-hosted TV channels about mining, shopping, foraging and more</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/6414">Quest Framework</a> 1.4.0</td>
+        <td>Add, edit and manage your own quests and create new quest types.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="">RealLifeMod</a> 1.0.0</td>
+        <td>A real life mod which pushes players to eat a full meal each day, and go to sleep at a reasonable hour.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="">Save Backup</a> 3.13.2</td>
+        <td>Automatically backs up all your saves once per day into its folder.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/1304">Self Service</a> 0.3.4-unofficial.1-pathoschild</td>
+        <td>allows you to buy stuff while shop is open, with or without someone at the counter</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/7495">Show Birthdays</a> 1.1.3</td>
+        <td>Allows the calendar to display multiple birthdays.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/7398">SpiceOfLife</a> 2.1.0</td>
+        <td>This mod makes eating the same food over and over again give less stamina each time, promiting a more varied diet.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/3213">StardewHack</a> 5.2</td>
+        <td>Transpilation library used by my other mods. Doesn&#39;t do much on its own.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/9786">Stardew Progress</a> 1.1.6-beta</td>
+        <td>Shows progress of the player(s) towards perfection</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/10192">StopRugRemoval</a> 1.0.1</td>
+        <td>Prevents you from removing rugs if there&#39;s something on it</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/1820">TMXL Map Toolkit</a> 1.22.2-unofficial.1-strobe</td>
+        <td>Load TMX Maps into the Game</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/1401">Tractor Mod</a> 4.14.9</td>
+        <td>Lets you buy a tractor to more efficiently work with crops, clear twigs and rocks, etc.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://github.com/annosz/uiinfosuite2/releases">UI Info Suite 2</a> 2.2.0</td>
+        <td>Adds a useful information to the user interface. Based on Cdaragorn&#39;s excellent UI Info Suite.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/6597">Underground Secrets</a> 0.6.0</td>
+        <td>To dungeons deep and caverns old...</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/10197">Utility Grid</a> 0.5.3</td>
+        <td>Utility grid.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://github.com/esca-mmc/waterproofitems/releases">Waterproof Items</a> 1.0.0</td>
+        <td>Prevents items disappearing when falling into water and optionally teleports them to players.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.nexusmods.com/stardewvalley/mods/1601">Winter Grass</a> 2.0.3</td>
+        <td>Grass will stay around in winter.</td>
+    </tr>
+    
+    </tbody>
 </table>
 </body>
